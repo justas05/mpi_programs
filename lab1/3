@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $# -lt 3 ]; then
+	echo "usage: ./3 [proccessors] [maxtime] [program]"
+	exit 1
+fi
+
+mpirun -np $1 -maxtime $2 $3

@@ -1,0 +1,10 @@
+BEFORE BCAST. rank 0. Result: 777
+AFTER BCAST. rank 0. Result: 777
+BEFORE BCAST. rank 2. Result: 0
+BEFORE BCAST. rank 4. Result: 0
+AFTER BCAST. rank 4. Result: 777
+BEFORE BCAST. rank 1. Result: 0
+AFTER BCAST. rank 1. Result: 777
+AFTER BCAST. rank 2. Result: 777
+BEFORE BCAST. rank 3. Result: 0
+AFTER BCAST. rank 3. Result: 777

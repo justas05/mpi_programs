@@ -1,0 +1,41 @@
+
+***********
+Task started in 1 time of 1 at 10.10.16 16:12:40
+******************* node3 **********************
+mkdir: невозможно создать каталог «/scratch/s12307»: Нет такого файла или каталога
+chown: невозможно получить доступ к «/scratch/s12307»: Нет такого файла или каталога
+Host node3 has been prepared
+******************* node4 **********************
+mkdir: невозможно создать каталог «/scratch/s12307»: Нет такого файла или каталога
+chown: невозможно получить доступ к «/scratch/s12307»: Нет такого файла или каталога
+Host node4 has been prepared
+error_flag=0
+Preparing nodes for user s12307
+/usr/runmvs/bin/prepare_nodes '/usr/runmvs/users/s12307/queue/2.1'
+Starting task process with pid 19598
+Pid of sleeper is 19599
+Signals set
+Sleeper 19599 started at 10.10.16 16:12:50 for 1 minutes, 0 seconds
+Sleeper 19599 got up at 10.10.16 16:13:50, testing end of task
+
+**** WARNING!!! The task has exhausted settled time!!! ****
+
+manager: sleeper 19599 was comleted with code 4
+Killing child tasks of pid 19598
+Executing /usr/runmvs/bin/stoptask /usr/runmvs/users/s12307/queue/2.1 /usr/runmvs/users/s12307/run/2.1 19598
+manager: process 19598 done at 10.10.16 16:13:57
+Creating done-file /usr/runmvs/users/s12307/done/2.1
+Done-file created successfully
+10.10.16 16:13:57: manager: closing nodes
+close_node: running "/usr/runmvs/bin/close_nodes /usr/runmvs/users/s12307/queue/2.1 no"
+Close nodes started
+Executing /usr/runmvs/bin/trycmd 3 /usr/runmvs/bin/cmd 540 /usr/bin/ssh on node node3
+Executing /usr/runmvs/bin/trycmd 3 /usr/runmvs/bin/cmd 540 /usr/bin/ssh on node node4
+Rsh on node node4 Ok
+Rsh on node node3 Ok
+close_nodes: node node3 has been successfully freed
+close_nodes: node node4 has been successfully freed
+close_node: close_nodes script done
+10.10.16 16:14:06: manager: close_nodes done
+Unlocking nodes ...
+Exiting...

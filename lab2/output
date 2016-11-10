@@ -1,0 +1,63 @@
+MPI_COMM_WORLD:
+	process: 9
+	rank: 0
+MY_COMM:
+	process: 4
+	rank: 0
+
+MPI_COMM_WORLD:
+	process: 9
+	rank: 8
+MY_COMM:
+	process: 3
+	rank: 2
+
+MPI_COMM_WORLD:
+	process: 9
+	rank: 1
+MY_COMM:
+	process: 2
+	rank: 0
+
+MPI_COMM_WORLD:
+	process: 9
+	rank: 2
+MY_COMM:
+	process: 3
+	rank: 0
+
+MPI_COMM_WORLD:
+	process: 9
+	rank: 3
+MY_COMM:
+	process: 4
+	rank: 1
+
+MPI_COMM_WORLD:
+	process: 9
+	rank: 4
+MY_COMM:
+	process: 3
+	rank: 1
+
+MPI_COMM_WORLD:
+	process: 9
+	rank: 5
+MY_COMM:
+	process: 4
+	rank: 2
+
+MPI_COMM_WORLD:
+	process: 9
+	rank: 6
+MY_COMM:
+	process: 4
+	rank: 3
+
+MPI_COMM_WORLD:
+	process: 9
+	rank: 7
+MY_COMM:
+	process: 2
+	rank: 1
+

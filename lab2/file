@@ -1,0 +1,7 @@
+MPI_COMM_WORLD:
+	process: 1
+	rank: 0
+MY_COMM:
+	process: 1
+	rank: 0
+

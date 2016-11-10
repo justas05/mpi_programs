@@ -1,0 +1,30 @@
+
+***********
+Task started in 1 time of 1 at 02.11.16 13:35:10
+******************* node4 **********************
+mkdir: невозможно создать каталог «/scratch/s12307»: Нет такого файла или каталога
+chown: невозможно получить доступ к «/scratch/s12307»: Нет такого файла или каталога
+Host node4 has been prepared
+error_flag=0
+Preparing nodes for user s12307
+/usr/runmvs/bin/prepare_nodes '/usr/runmvs/users/s12307/queue/m2m_comm.1'
+Starting task process with pid 23017
+Pid of sleeper is 23018
+Signals set
+Sleeper 23018 started at 02.11.16 13:35:15 for 2 minutes, 0 seconds
+manager: process 23017 done at 02.11.16 13:35:23
+Killing sleeper 23018
+Waiting for the end of sleeper
+Sleeper done successfully
+Creating done-file /usr/runmvs/users/s12307/done/m2m_comm.1
+Done-file created successfully
+02.11.16 13:35:23: manager: closing nodes
+close_node: running "/usr/runmvs/bin/close_nodes /usr/runmvs/users/s12307/queue/m2m_comm.1 no"
+Close nodes started
+Executing /usr/runmvs/bin/trycmd 3 /usr/runmvs/bin/cmd 540 /usr/bin/ssh on node node4
+Rsh on node node4 Ok
+close_nodes: node node4 has been successfully freed
+close_node: close_nodes script done
+02.11.16 13:35:33: manager: close_nodes done
+Unlocking nodes ...
+Exiting...

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "hello world (stdout)" >&1
+echo "hello world (stderr)" >&2 
+
+sleep 70
